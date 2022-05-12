@@ -18,6 +18,10 @@ class Bag {
     }
     return false;
   }
+
+  remove() {
+    this.candies.pop()
+  }
 }
 
 module.exports = Bag;

@@ -11,10 +11,10 @@ class Skier {
   }
 
   pickSlope () {
-    if (this.skillLevel == 5) {
+    if (this.skillLevel === 5) {
       this.nextSlope = 'black diamond'
     }
-    else if (this.skillLevel == 3) {
+    else if (this.skillLevel === 3) {
       this.nextSlope = 'blue square'
     }
   }
